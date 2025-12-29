@@ -120,6 +120,7 @@ const App: React.FC = () => {
             )}
             {appState === AppState.ERROR && (
               <div className="text-center py-20">
+                // SERVER STATUS BADGE - Production Ready v1.0
                 <h2 className="text-2xl font-bold text-red-600">Something went wrong.</h2>
                 <button onClick={() => setAppState(AppState.INPUT)} className="mt-4 text-blue-600 font-bold underline">Try Again</button>
               </div>
